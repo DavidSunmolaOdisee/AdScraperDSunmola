@@ -1,13 +1,32 @@
 // src/server.js
 import express from "express";
 import dotenv from "dotenv";
+import cors from "cors";
+import path from "path";
+import { fileURLToPath } from "url";
+
 import db from "./db.js";
 import { appendUniversalRows, appendHistoryRow, ensureHeaders } from "./sheetsUtil.js";
 import { scrapeSmart } from "./scrape.js";
 
 dotenv.config();
 const app = express();
-app.use(express.json());
+
+// JSON body parsing
+app.use(express.json({ limit: "2mb" }));
+
+// CORS openzetten (pas origin aan naar je eigen Pages/Render domein)
+app.use(cors({
+  origin: [
+    "http://localhost:3000",
+    "https://<JOUW-PAGES-URL>.pages.dev"
+  ]
+}));
+
+// Static client map (upload.html bereikbaar op /client/upload.html)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+app.use("/client", express.static(path.join(__dirname, "client")));
 
 /* ---------- health ---------- */
 app.get("/health", (_req, res) => {
@@ -32,10 +51,10 @@ app.post("/sheets/init", async (_req, res) => {
 /* ---------- smart scrape (Graph + snapshot + CTA-filter) ---------- */
 app.post("/scrape/smart", async (req, res) => {
   try {
-	const { link, country, keyword, limit = 25, active = true, headless = true, log = true,
-        date_min, date_max, require_category } = req.body || {};
-	
-	    // simpele validatie (optioneel)
+    const { link, country, keyword, limit = 25, active = true, headless = true, log = true,
+            date_min, date_max, require_category } = req.body || {};
+    
+    // simpele validatie (optioneel)
     const DRE = /^\d{4}-\d{2}-\d{2}$/;
     const dm = date_min && DRE.test(date_min) ? date_min : undefined;
     const dx = date_max && DRE.test(date_max) ? date_max : undefined;
@@ -45,10 +64,11 @@ app.post("/scrape/smart", async (req, res) => {
     }
 
     const started = new Date().toISOString();
-const items = await scrapeSmart({
-  url: link, country, keyword, limit, active, headless, log,
-  dateMin: dm, dateMax: dx, requireCategory: require_category
-});
+    const items = await scrapeSmart({
+      url: link, country, keyword, limit, active, headless, log,
+      dateMin: dm, dateMax: dx, requireCategory: require_category
+    });
+
     // --- DB insert (optioneel/best-effort) ---
     const now = new Date().toISOString();
     const batchId = `smart-${Date.now()}`;
@@ -86,33 +106,22 @@ const items = await scrapeSmart({
     }
 
     // --- Sheets push: exact kolom-schema ---
-    // A: Ad Library URL
-    // B: Store Name
-    // C: Country
-    // D: Reach
-    // E: Product Link
-    // F: Start Date
-    // G: Media Type
-    // H: Platforms
-    // I: Keyword
-    // J: Ad ID
-    // K: CTA
-const rows = items.map(it => ([
-  it.ad_snapshot_url || "",       // A
-  it.page_name || "",             // B
-  it.country || "",               // C
-  typeof it.reach === "number" ? it.reach : "", // D
-  it.product_url || "",           // E
-  it.start_date || "",            // F
-  it.media_type || "",            // G
-  it.platforms || "",             // H
-  it.keyword || "",               // I
-  it.ad_id || "",                 // J
-  it.cta_text || "",              // K
-  it.page_likes || "",            // L (nieuw)
-  it.page_followers || "",        // M (nieuw)
-  it.page_category || ""          // N (nieuw)
-]));
+    const rows = items.map(it => ([
+      it.ad_snapshot_url || "",       // A
+      it.page_name || "",             // B
+      it.country || "",               // C
+      typeof it.reach === "number" ? it.reach : "", // D
+      it.product_url || "",           // E
+      it.start_date || "",            // F
+      it.media_type || "",            // G
+      it.platforms || "",             // H
+      it.keyword || "",               // I
+      it.ad_id || "",                 // J
+      it.cta_text || "",              // K
+      it.page_likes || "",            // L
+      it.page_followers || "",        // M
+      it.page_category || ""          // N
+    ]));
 
     if (rows.length) {
       await appendUniversalRows(rows);
@@ -139,4 +148,4 @@ const rows = items.map(it => ([
 
 /* ---------- start ---------- */
 const PORT = process.env.PORT || 5179;
-app.listen(PORT, () => console.log(`Local server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));

@@ -1,21 +1,24 @@
+// src/sheetsAuth.js
 import fs from "fs";
-import path from "path";
 import { google } from "googleapis";
 
 const SCOPES = ["https://www.googleapis.com/auth/spreadsheets"];
-const CREDENTIALS_PATH = path.resolve("client_secret.json");
-const TOKEN_PATH = path.resolve("token.json");
+const TOKEN_PATH = "token.json";
 
 export async function getSheetsClient() {
-  const content = fs.readFileSync(CREDENTIALS_PATH, "utf8");
-  const { installed } = JSON.parse(content);
-// src/sheetsAuth.js (vervang de oAuth2Client-regel)
-const oAuth2Client = new google.auth.OAuth2(
-  installed.client_id,
-  installed.client_secret,
-  "http://localhost" // forceer juiste redirect voor Desktop
-);
+  // Credentials uit environment (Render → Environment tab)
+  const clientId = process.env.GOOGLE_CLIENT_ID;
+  const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
 
+  if (!clientId || !clientSecret) {
+    throw new Error("GOOGLE_CLIENT_ID of GOOGLE_CLIENT_SECRET ontbreekt in env");
+  }
+
+  const oAuth2Client = new google.auth.OAuth2(
+    clientId,
+    clientSecret,
+    "http://localhost" // redirect voor lokale auth
+  );
 
   // token ophalen of genereren
   if (fs.existsSync(TOKEN_PATH)) {
@@ -25,7 +28,7 @@ const oAuth2Client = new google.auth.OAuth2(
       access_type: "offline",
       scope: SCOPES,
     });
-    console.log("\nOpen deze URL en geef de code hierna in:\n", authUrl, "\n");
+    console.log("\nOpen deze URL en plak de code:\n", authUrl, "\n");
     const code = await promptStdin("Auth code: ");
     const { tokens } = await oAuth2Client.getToken(code);
     fs.writeFileSync(TOKEN_PATH, JSON.stringify(tokens, null, 2));
@@ -33,8 +36,7 @@ const oAuth2Client = new google.auth.OAuth2(
     console.log("OAuth token opgeslagen -> token.json\n");
   }
 
-  const sheets = google.sheets({ version: "v4", auth: oAuth2Client });
-  return sheets;
+  return google.sheets({ version: "v4", auth: oAuth2Client });
 }
 
 function promptStdin(q) {
