@@ -344,17 +344,23 @@ export async function scrapeSmart({
   const resolvedLocale = resolveLocale(_country);          // bv. nl-NL (forced)
   const cookieLocale   = underscoreLocale(resolvedLocale); // nl_NL
 
-  const browser = await chromium.launch({
-    headless,
-    slowMo: headless ? 0 : 80,
-    args: [
-      '--disable-dev-shm-usage',
-      '--no-sandbox',
-      '--disable-background-timer-throttling',
-      '--disable-renderer-backgrounding',
-      '--disable-backgrounding-occluded-windows'
-    ]
-  });
+// In de cloud (Render/CI/prod) dwingen we headless af
+const isCloud = Boolean(process.env.RENDER || process.env.CI || process.env.NODE_ENV === "production");
+const useHeadless = isCloud ? true : (headless !== false);
+
+const browser = await chromium.launch({
+  headless: useHeadless,
+  slowMo: useHeadless ? 0 : 80,
+  args: [
+    '--disable-dev-shm-usage',
+    '--no-sandbox',
+    // optionele extra stabiliteit
+    '--disable-background-timer-throttling',
+    '--disable-renderer-backgrounding',
+    '--disable-backgrounding-occluded-windows'
+  ]
+});
+
   fs.mkdirSync(STORAGE_DIR, { recursive: true });
 
   const HAS_STATE = fs.existsSync(STORAGE_PATH);
