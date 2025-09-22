@@ -1,0 +1,1326 @@
+{
+  "cookies": [
+    {
+      "name": "X-AB",
+      "value": "799c314adc8f405a86fcdabac88352da",
+      "domain": "sc-static.net",
+      "path": "/scevent.min.js",
+      "expires": 1758549035.41272,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "checkout_locale",
+      "value": "nl",
+      "domain": "www.zoua.co.uk",
+      "path": "/56117919842",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tbSSCN",
+      "value": "false",
+      "domain": "bellitini.com",
+      "path": "/products",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tbSSCN",
+      "value": "false",
+      "domain": "pattounes-solidaires.com",
+      "path": "/products",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "locale",
+      "value": "nl_NL",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "datr",
+      "value": "p-_PaPm3zoi798Hr7l8vSJMt",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1793017769.213645,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sb",
+      "value": "r-_PaDQxSpOn4747x8chsGeU",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1793017775.383126,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "wd",
+      "value": "1366x900",
+      "domain": ".facebook.com",
+      "path": "/",
+      "expires": 1759090927,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "localization",
+      "value": "BE",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1789997970.136006,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cart_currency",
+      "value": "EUR",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1759671570.541599,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_y",
+      "value": "22271823-2b99-45e2-a3c9-b3a58bcd4e1b",
+      "domain": ".bellitini.com",
+      "path": "/",
+      "expires": 1790019570.541691,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tracking_consent",
+      "value": "3.AMPS_BEVLG_f_f_N2Mg5-jVSXet0s9rvFH0fw",
+      "domain": ".bellitini.com",
+      "path": "/",
+      "expires": 1790019570.13613,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_orig_referrer",
+      "value": "https%3A%2F%2Fwww.facebook.com%2F",
+      "domain": ".bellitini.com",
+      "path": "/",
+      "expires": 1759671570.136147,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_landing_page",
+      "value": "%2Fproducts%2Fchemise-infroissable-a-coupe-ajustee",
+      "domain": ".bellitini.com",
+      "path": "/",
+      "expires": 1759671570.136164,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "keep_alive",
+      "value": "eyJ2IjoyLCJ0cyI6MTc1ODQ2MTk3MDc4MCwiZW52Ijp7IndkIjoxLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MSwicyI6MTc1ODQ2MTk3MDU4MSwiZCI6MH19",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_tb_fbp",
+      "value": "fb.1.1758461970872.3718647587",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1793021970,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shop_app_essential",
+      "value": ":AZlsgEtYAAEA0WyLotO5wYjmILqOfKUbHQhV5jRmcTrF0GAYoFc4QAt2RY_CpU5V_JGGVprjGoM5:",
+      "domain": ".shop.app",
+      "path": "/",
+      "expires": 1789997970.872955,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_tb_ttp",
+      "value": "c52bb91b-c659-414f-87bb-20c476ded40abfa30cf1-59b0-4c54-87f8-ccbc3b380686",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1793021970,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_user_data_consent",
+      "value": "GRANTED",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1793021970,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_personalization_consent",
+      "value": "GRANTED",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1793021970,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__kla_id",
+      "value": "eyJjaWQiOiJNRFF3WXpsaU5ERXRaalU0TlMwME56VTVMV0ppTldNdE5UZGlZakV6TW1RME9XWmoifQ==",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1793021971.001826,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cart",
+      "value": "hWN3EaTRaPDTdOhNvs8q3yOR%3Fkey%3Dd411e41d8f399cea5b8d7614957e3f5a",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1761140371.188691,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_essential",
+      "value": ":AZlsgEeUAAEAf0diq7TAb1k3qRy5csF9KM4KDcfkV1_EXkUOQKJJ9WChO5ValuwcRUjBwj2j4pRw6KE5Tc37_h4gk8wcJlzDRCwkqHAHKwlX--yHtSMTi1DkWrG5RANO1C54-GxN-vDsMnNrBq3jiL6-fcMGRfVELBsP7_ITPURPBGtNn8an794:",
+      "domain": "bellitini.com",
+      "path": "/",
+      "expires": 1789997971.18875,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "localization",
+      "value": "FR",
+      "domain": "atelierlunelle.fr",
+      "path": "/",
+      "expires": 1789998409.838502,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cart_currency",
+      "value": "EUR",
+      "domain": "atelierlunelle.fr",
+      "path": "/",
+      "expires": 1759672009.914321,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_y",
+      "value": "cea9a227-ceb6-441d-ad08-815960ad8f69",
+      "domain": ".atelierlunelle.fr",
+      "path": "/",
+      "expires": 1790020009.914412,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tracking_consent",
+      "value": "3.AMPS_BEVLG_f_f_aj8tQzsTQKG*dF3WEiu-Iw",
+      "domain": ".atelierlunelle.fr",
+      "path": "/",
+      "expires": 1790020009.072944,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_orig_referrer",
+      "value": "https%3A%2F%2Fwww.facebook.com%2F",
+      "domain": ".atelierlunelle.fr",
+      "path": "/",
+      "expires": 1759672009.072963,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_landing_page",
+      "value": "%2Fproducts%2Fverda",
+      "domain": ".atelierlunelle.fr",
+      "path": "/",
+      "expires": 1759672009.072982,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__kla_id",
+      "value": "eyJjaWQiOiJZVEJqWkRFMVpHSXROalUyTmkwMFlXTmxMVGd3TlRNdE5XWTJNR0kwTmpsak9UZGkifQ==",
+      "domain": "atelierlunelle.fr",
+      "path": "/",
+      "expires": 1793022409.963263,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1758462410028.74719332408303290",
+      "domain": ".atelierlunelle.fr",
+      "path": "/",
+      "expires": 1766238410,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_essential",
+      "value": ":AZlshvpAAAEATOUfkKZyixx1yYYxo_Rua3xmfGP_D68lzqsPlRLSf_9hiwprZotomDhWI5O8QjxggMtOoFZj3uQZl_0I_nMt3f5Up0RKoIP-jnQqMs9mFn00U_gNHqv9sGtltU-JbaUg0ncuH9-nmPk-WCxVmaasirCxi5uuMk9qogd6322icCMDwABMQE7fhx9vjYpLtU2ONgx7s4UVhTPY94GG1T2Bsc9Ovpch2yxejw-Su6in576jkQ7E7zyhymcyFtYm6EeWyfBWu6HUZyMJ26k:",
+      "domain": "atelierlunelle.fr",
+      "path": "/",
+      "expires": 1789998414.721354,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "keep_alive",
+      "value": "eyJ2IjoyLCJ0cyI6MTc1ODQ2MjYwMzE4MywiZW52Ijp7IndkIjoxLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjoxNywiY2EiOjAsImthIjowLCJzYSI6Mywia2JhIjowLCJ0YSI6MCwidCI6MTkzLCJubSI6MSwibXMiOjAuMjUsIm1qIjowLjkyLCJtc3AiOjAuODgsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAuNjMsInNqIjowLjg4LCJzc20iOjAuNSwic3AiOjEsInRzIjowLCJ0aiI6MCwidHAiOjAsInRzbSI6MH0sInNlcyI6eyJwIjoxLCJzIjoxNzU4NDYyNDA5NTU0LCJkIjoxODB9fQ%3D%3D",
+      "domain": "atelierlunelle.fr",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "localization",
+      "value": "BE",
+      "domain": "www.zoua.co.uk",
+      "path": "/",
+      "expires": 1789998633.715215,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cart_currency",
+      "value": "EUR",
+      "domain": "www.zoua.co.uk",
+      "path": "/",
+      "expires": 1759672235.807924,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tracking_consent",
+      "value": "3.ampS_BEVLG_t_f_CeTHfYU1SHG2QFlb1ws4OQ",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1790020233.715295,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "keep_alive",
+      "value": "eyJ2IjoyLCJ0cyI6MTc1ODQ2MjYzNDI1NCwiZW52Ijp7IndkIjoxLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MSwicyI6MTc1ODQ2MjYzNDE4NiwiZCI6MH19",
+      "domain": "www.zoua.co.uk",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "ig-id",
+      "value": "ig_fe89c54cd6d968205cb9c49fd5358c3bcae6",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1789998634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ig-fv",
+      "value": "1758462634313",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1789998634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ig-vars",
+      "value": "{%22redirectedFrom%22:%22%22}",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1789998634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ig-pv",
+      "value": "1",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1789998634,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cart",
+      "value": "hWN3EbayMg1QyhF7TgGgvHrH%3Fkey%3D3a79d46f44824981abbd4ca1151dccce",
+      "domain": "www.zoua.co.uk",
+      "path": "/",
+      "expires": 1761141035.672728,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid",
+      "value": "t0KzqP-cmRaHiR_OLmHkYKlXfyloVEkh",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1792590635,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid_r",
+      "value": "t0KzqP-cmRaHiR_OLmHkYKlXfyloVEkh",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1792590635,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_essential",
+      "value": "%3AAZlsimc5AAEAXrmROIneheJskNU1AenJqeuBAf6C6wHVtrJDMKRXZ2PUEf3t6afA-P1sMnRlQK3zITP-cnytjqrEMXq1ot9NM8RJSxw_T0IkNoCoRWyDHtZs6NW55jf5XEz8CWv-BRXh20EXR9xkCDl7jfP4YNJpmj7uf96b5IMWjpp5Vxt0uRv6OCKb1pQRizhOxyofe0ZOaO5phvlf8tOWzr049WeJrxzweIKygPvsuDeNrAgPrKu_iIs4ysU9b3TD26ugc6SVaxvH4AwImap9mGoLIyDzGw9ATr3W3PhmzboXDq-H%3A",
+      "domain": "www.zoua.co.uk",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ScCbts",
+      "value": "%5B%5D",
+      "domain": ".zoua.co.uk",
+      "path": "/",
+      "expires": 1759067435,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__v_anl__oct__",
+      "value": "709ddc68b4c8b25937523e42df3ec260",
+      "domain": "www.zoua.co.uk",
+      "path": "/",
+      "expires": 1761054638,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__v_anl__cct__",
+      "value": "hWN3EbayMg1QyhF7TgGgvHrH?key=3a79d46f44824981abbd4ca1151dccce",
+      "domain": "www.zoua.co.uk",
+      "path": "/",
+      "expires": 1761054638,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "localization",
+      "value": "BE",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1789998650.343084,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cart_currency",
+      "value": "EUR",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1759672252.664256,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_y",
+      "value": "2886bd5a-aa81-42cb-911a-011547f7d7c4",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1790020252.664338,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tracking_consent",
+      "value": "3.AMPS_BEVLG_f_f_kbQP8dBsSHO8nOEqb1OL-Q",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1790020250.343275,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_orig_referrer",
+      "value": "https%3A%2F%2Fwww.facebook.com%2F",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1759672250.343298,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_landing_page",
+      "value": "%2Fproducts%2Fbracelet-espoir",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1759672250.343324,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ig-id",
+      "value": "ig_1af18dddc51a7fee553524d30446e521bf9d",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1789998650,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ig-fv",
+      "value": "1758462650590",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1789998650,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ig-vars",
+      "value": "{%22redirectedFrom%22:%22%22}",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1789998650,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ig-pv",
+      "value": "1",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1789998650,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_fbp",
+      "value": "fb.1.1758462651084.2228867405",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1793022651,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_ttp",
+      "value": "05631424-c247-4b1f-a834-11339dccf66300c72bbc-2931-4d4c-9f68-6dcf114bdafb",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1793022651,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_user_data_consent",
+      "value": "GRANTED",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1793022651,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_personalization_consent",
+      "value": "GRANTED",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1793022651,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1758462651171.396225277831049078",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1766238651,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mtk_referer",
+      "value": "true",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1758549051,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rpdid",
+      "value": "b3f5cfa4-afc3-437f-8afa-4605cea518ea",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1793022651.371698,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rptkn",
+      "value": "moonscalingllc8422",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1793022651.372282,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "soundestID",
+      "value": "20250921135051-g4jsWNsrC3sgf8OvROgrMYqj5KHYoSzKOpeT8qEa6zhZmPlvV",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "omnisendShopifyCart",
+      "value": "{}",
+      "domain": ".pattounes-solidaires.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_essential",
+      "value": "%3AAZlsiqjcAAEA44zGzk7bE5st6lKfG3WA0FCXxeZqxGPvkEqtC5Faei8Js3lRgB64I2_qpcWQf9Z8oqtNV3MpoO8CciCV9ThH9QQPpwWV9squKEz3Tu5Gqg-OTUDHhUWfH0lN89ShBSi-g6WfQeo4JjFAm6eNh2cfi5MvP4NSjFKCvOoa-Q1Aa9-ZQW4Ul8Tnb2zaP3AWsVu0YVfPw7eeBUuBQO6SpxEgyCgMTJ7RhZu8eOHNUAz8IIEffBnw7Dd1pOm8Y7YNau36acwM_S4FUk1c2kAl%3A",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cart",
+      "value": "hWN3EbciMEisRK67aNoFTk7H%3Fkey%3D7e035f4d03a6da07a452ce755f29cfac",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": 1761141051.976797,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "lq8XvlkgFXsro/WKlCCWyF6W1WaZV2BPiux4nkZYDkuUEnlhVPmPM3ztiao4Gfx1H+7X3DR7NAHPwH+TFvGar65E2EtpVU9o2UqWmxCOUdJyOLwu+GqH56iBtox3",
+      "domain": "ws-prod.richpanel.com",
+      "path": "/",
+      "expires": 1759067454.808955,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "keep_alive",
+      "value": "eyJ2IjoyLCJ0cyI6MTc1ODQ2MjY1NjAyNiwiZW52Ijp7IndkIjoxLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0Ijo1LCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MSwicyI6MTc1ODQ2MjY1MDk0MCwiZCI6NX19",
+      "domain": "pattounes-solidaires.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "localization",
+      "value": "FR",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1789998680.196002,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_y",
+      "value": "0201202a-57b0-4561-bdd0-2b33200783c1",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1790020280.196106,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tracking_consent",
+      "value": "3.AMPS_BEVLG_f_f_cHjtkpv7SkSfurDKpaQ1QQ",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1790020279.2556,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_orig_referrer",
+      "value": "https%3A%2F%2Fwww.facebook.com%2F",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1759672279.255621,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_landing_page",
+      "value": "%2Fpassword",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1759672279.255642,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ex_id",
+      "value": "rbxzZqqqtd",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1759067479,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "section_order_id",
+      "value": "91rOmG9KXA",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1759067479,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OT_FBPLID",
+      "value": "fb.1.1758462679560.1758462746649",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1759067479,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "obj_fbp_fbc",
+      "value": "{\"fbc\":null,\"fbp\":\"fb.1.1758462679560.1758462746649\"}",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1759067479,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "keep_alive",
+      "value": "eyJ2IjoyLCJ0cyI6MTc1ODQ2MjY3OTY0MCwiZW52Ijp7IndkIjoxLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MSwicyI6MTc1ODQ2MjY3OTU1OSwiZCI6MH19",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_shopify_essential",
+      "value": ":AZlsixc1AAEADECtODnsVqKuOAzv30va3odZVjWK4MEbVSFvDzau6rbGiuZ9uCRjc1NVXA2ibxYe7zu4HacUPDD3CQ12gioVoOTwU0ikGIcouXTbanOwBvpMcVHvL_8N-8QN8EE--8-1nbBQMecDIjYJRGt42NAP8GgRe4oEpaRSsYMnmA:",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1789998679.907658,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_fbp",
+      "value": "fb.1.1758462679929.4228049370",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1793022679,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_ttp",
+      "value": "6e576e59-bdb9-4ef3-a0f6-e0ae9f4f11cccf7a4a2d-6f12-45f6-8f5b-ac8fe6a2341b",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1793022679,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_user_data_consent",
+      "value": "GRANTED",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1793022679,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tb_personalization_consent",
+      "value": "GRANTED",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1793022679,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tbSSCN",
+      "value": "false",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__kla_id",
+      "value": "eyJjaWQiOiJNRFpsTkRSaFltUXRNMlkzTnkwME1ESmtMV0prTUdFdFpUUTRaR0k1WldaaU5UVmkifQ==",
+      "domain": "fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1793022679.995628,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1758462680080.356822771201573504",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1766238680,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ttp",
+      "value": "01K5P8P789M56MBQFE60KMMPGV_.tt.0",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1766238680,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttcsid_CSL9CARC77UAMB3VG050",
+      "value": "1758462680336::LZioTC0-hiPoVHDpmkqI.1.1758462680336",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1766238680,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttcsid",
+      "value": "1758462680337::o6VzWw4X8geMBvhJX8ix.1.1758462680337",
+      "domain": ".fleurdeluxe.fr",
+      "path": "/",
+      "expires": 1766238680,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.facebook.com",
+      "localStorage": [
+        {
+          "name": "ps:61556696807768:bed50fb4-4780-461d-851f-75d81a24a3ab",
+          "value": "afcdfe13-5a01-4182-a430-e4e17e0c7686:1758486122944"
+        },
+        {
+          "name": "ps:61579623696343:bed50fb4-4780-461d-851f-75d81a24a3ab",
+          "value": "bcb7d38e-8aa8-4daa-921a-9b46f4e8f251:1758486111839"
+        },
+        {
+          "name": "Session",
+          "value": "zrvf1f:1758486162337"
+        },
+        {
+          "name": "ps:61578943048645:bed50fb4-4780-461d-851f-75d81a24a3ab",
+          "value": "bf28c780-0cba-4fe9-9b40-75aeb42ba065:1758486116941"
+        },
+        {
+          "name": "_oz_bandwidthEstimate",
+          "value": "10000000"
+        },
+        {
+          "name": "banzai:last_storage_flush",
+          "value": "1758457776566.1"
+        },
+        {
+          "name": "ps:61562249526280:bed50fb4-4780-461d-851f-75d81a24a3ab",
+          "value": "00519151-25a4-4e36-a2ba-d40f4546d583:1758486091758"
+        },
+        {
+          "name": "ps:61579408918982:bed50fb4-4780-461d-851f-75d81a24a3ab",
+          "value": "bbbbfaed-f113-41a0-aad5-8268512de1dd:1758486096658"
+        },
+        {
+          "name": "ps:100089629704610:bed50fb4-4780-461d-851f-75d81a24a3ab",
+          "value": "e385120e-bb0e-4cef-85e6-1d226d57090c:1758486101616"
+        },
+        {
+          "name": "hb_timestamp",
+          "value": "1758483611686"
+        },
+        {
+          "name": "ps:61579323781964:bed50fb4-4780-461d-851f-75d81a24a3ab",
+          "value": "52da6104-df6b-403f-83f2-6152586f4a56:1758486106880"
+        },
+        {
+          "name": "_oz_bandwidthAndTTFBSamples",
+          "value": "{\"b\":[],\"t\":[]}"
+        },
+        {
+          "name": "signal_flush_timestamp",
+          "value": "1758483611701"
+        }
+      ]
+    },
+    {
+      "origin": "https://bellitini.com",
+      "localStorage": [
+        {
+          "name": "__kl_key",
+          "value": "XJrdAX"
+        },
+        {
+          "name": "$referrer",
+          "value": "{\"ts\":1758461971,\"value\":\"https://www.facebook.com/\",\"first_page\":\"https://bellitini.com/products/chemise-infroissable-a-coupe-ajustee\"}"
+        },
+        {
+          "name": "_tb_user_data_consent",
+          "value": "GRANTED"
+        },
+        {
+          "name": "_tb_fbp",
+          "value": "fb.1.1758461970872.3718647587"
+        },
+        {
+          "name": "_tb_id",
+          "value": "401177ad-41bc-42f6-bde1-745ab98703c7"
+        },
+        {
+          "name": "$last_referrer",
+          "value": "{\"ts\":1758461971,\"value\":\"https://www.facebook.com/\",\"first_page\":\"https://bellitini.com/products/chemise-infroissable-a-coupe-ajustee\"}"
+        },
+        {
+          "name": "kaching_session_id",
+          "value": "bee337ab-6e22-469b-b15b-08b2f34647ba"
+        },
+        {
+          "name": "_tb_personalization_consent",
+          "value": "GRANTED"
+        },
+        {
+          "name": "_tb_ttp",
+          "value": "c52bb91b-c659-414f-87bb-20c476ded40abfa30cf1-59b0-4c54-87f8-ccbc3b380686"
+        },
+        {
+          "name": "__kla_viewed",
+          "value": "[[{\"Title\":\"Chemise Infroissable à Coupe Ajustée\",\"ItemId\":15563005788542,\"Categories\":[\"Page d'accueil\"],\"ImageUrl\":\"https://bellitini.com/cdn/shop/files/Chemise_Bellutia_avantages_grande.jpg?v=1758134266\",\"Url\":\"https://bellitini.com/products/chemise-infroissable-a-coupe-ajustee\",\"Metadata\":{\"Brand\":\"Bellitini\",\"Price\":\"€44,90\",\"Value\":\"44,90\",\"CompareAtPrice\":\"€0,00\"},\"LastViewedDate\":1758461971},1]]"
+        },
+        {
+          "name": "kaching_visited_deal_blocks",
+          "value": "[\"3730f468-2d73-4b13-b022-862d241864fc\"]"
+        },
+        {
+          "name": "__kla_viewed_reviewed_items",
+          "value": "{\"15563005788542\":{\"reviews\":{},\"yotpo\":{\"rating\":null,\"count\":null},\"loox\":{\"rating\":null,\"count\":null},\"okendo\":{\"rating\":null,\"count\":null}}}"
+        },
+        {
+          "name": "kl-post-identification-sync",
+          "value": "[{\"name\":\"Viewed Product\",\"time\":\"2025-09-21T13:39:30.999Z\",\"properties\":{\"Name\":\"Chemise Infroissable à Coupe Ajustée\",\"ProductID\":15563005788542,\"Categories\":[\"Page d'accueil\"],\"ImageURL\":\"https://bellitini.com/cdn/shop/files/Chemise_Bellutia_avantages_grande.jpg?v=1758134266\",\"URL\":\"https://bellitini.com/products/chemise-infroissable-a-coupe-ajustee\",\"Brand\":\"Bellitini\",\"Price\":\"€44,90\",\"Value\":\"44,90\",\"CompareAtPrice\":\"€0,00\"}},{\"name\":\"__activity__\",\"time\":\"2025-09-21T13:39:31.001Z\",\"properties\":{\"initial_page_path\":\"/products/chemise-infroissable-a-coupe-ajustee\",\"page\":\"https://bellitini.com/products/chemise-infroissable-a-coupe-ajustee\",\"browser\":\"Chrome\",\"os\":\"Windows\",\"referrer\":\"www.facebook.com\"}}]"
+        },
+        {
+          "name": "_tb_d_i",
+          "value": "{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36\",\"timezone\":\"Europe/Brussels\",\"screenRatio\":1.5177777777777777,\"hardwareConcurrency\":12,\"deviceMemory\":8,\"touchPoints\":0}"
+        }
+      ]
+    },
+    {
+      "origin": "https://atelierlunelle.fr",
+      "localStorage": [
+        {
+          "name": "__kl_key",
+          "value": "TimpkW"
+        },
+        {
+          "name": "klaviyoOnsite",
+          "value": "{\"viewedForms\":{\"modal\":{\"disabledForms\":{},\"viewedForms\":{\"XJcFSv\":20055088},\"disabledTeasers\":{}}}}"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1758462410017"
+        },
+        {
+          "name": "$referrer",
+          "value": "{\"ts\":1758462410,\"value\":\"https://www.facebook.com/\",\"first_page\":\"https://atelierlunelle.fr/products/verda\"}"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1758462410047"
+        },
+        {
+          "name": "$last_referrer",
+          "value": "{\"ts\":1758462410,\"value\":\"https://www.facebook.com/\",\"first_page\":\"https://atelierlunelle.fr/products/verda\"}"
+        },
+        {
+          "name": "kaching_session_id",
+          "value": "5bc8415b-109b-401a-a90d-e699565b62b0"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "fb"
+        },
+        {
+          "name": "theme-recent",
+          "value": "{\"verda\":{\"url\":\"/products/verda\",\"aspectRatio\":\"100.0\",\"featuredImage\":\"//atelierlunelle.fr/cdn/shop/files/mary-jane-374756_{width}x.jpg?v=1753559575\"}}"
+        },
+        {
+          "name": "__kla_viewed",
+          "value": "[[{\"Title\":\"Verda - Élégante Chaussure en Cuir\",\"ItemId\":10159178776912,\"Categories\":[\"Chaussures Femmes\"],\"ImageUrl\":\"https://atelierlunelle.fr/cdn/shop/files/mary-jane-374756_grande.jpg?v=1753559575\",\"Url\":\"https://atelierlunelle.fr/products/verda\",\"Metadata\":{\"Brand\":\"Atelier Lunelle\",\"Price\":\"€59,95\",\"Value\":\"59,95\",\"CompareAtPrice\":\"€120,00\"},\"LastViewedDate\":1758462410},1]]"
+        },
+        {
+          "name": "__kla_viewed_reviewed_items",
+          "value": "{\"10159178776912\":{\"reviews\":{},\"yotpo\":{\"rating\":null,\"count\":null},\"loox\":{\"rating\":null,\"count\":null},\"okendo\":{\"rating\":null,\"count\":null}}}"
+        },
+        {
+          "name": "kl-post-identification-sync",
+          "value": "[{\"name\":\"Viewed Product\",\"time\":\"2025-09-21T13:46:49.961Z\",\"properties\":{\"Name\":\"Verda - Élégante Chaussure en Cuir\",\"ProductID\":10159178776912,\"Categories\":[\"Chaussures Femmes\"],\"ImageURL\":\"https://atelierlunelle.fr/cdn/shop/files/mary-jane-374756_grande.jpg?v=1753559575\",\"URL\":\"https://atelierlunelle.fr/products/verda\",\"Brand\":\"Atelier Lunelle\",\"Price\":\"€59,95\",\"Value\":\"59,95\",\"CompareAtPrice\":\"€120,00\"}},{\"name\":\"__activity__\",\"time\":\"2025-09-21T13:46:49.962Z\",\"properties\":{\"initial_page_path\":\"/products/verda\",\"page\":\"https://atelierlunelle.fr/products/verda\",\"browser\":\"Chrome\",\"os\":\"Windows\",\"referrer\":\"www.facebook.com\"}}]"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.zoua.co.uk",
+      "localStorage": [
+        {
+          "name": "shopifyChatData",
+          "value": "{\"visits\":[{\"time\":1758462634577,\"path\":\"/products/today-s-lowest-price-men-s-classic-high-elasticity-pants\"}],\"sessionId\":\"52d187af-043c-490f-936c-adc4e75bf16e\"}"
+        },
+        {
+          "name": "sca_products_info",
+          "value": "N4IgJghgLhIFwG0C6AaEUCWBbApvAjAOwCsAHACwBsATJQMzkCcdlAvkA==="
+        },
+        {
+          "name": "klaviyoOnsite",
+          "value": "{\"viewedForms\":{\"modal\":{\"disabledForms\":{},\"viewedForms\":{\"TiNzWa\":11969339},\"disabledTeasers\":{}}}}"
+        },
+        {
+          "name": "u_sclid",
+          "value": "MSoeMq86jUJNRahcvO0nmzA-2rMY8j1dt0KzqP-cmRaHiR_OLmHkYKlXfyloVEkh"
+        },
+        {
+          "name": "u_sclid_r",
+          "value": "MSoeMq86jUJNRahcvO0nmzA-2rMY8j1dt0KzqP-cmRaHiR_OLmHkYKlXfyloVEkh"
+        },
+        {
+          "name": "di_pmt_wt",
+          "value": "mftr8zym_0.r945ii75rh"
+        },
+        {
+          "name": "sca_offers_added",
+          "value": "NoXSA==="
+        },
+        {
+          "name": "TriplePixel",
+          "value": "1"
+        },
+        {
+          "name": "wg-translations-v",
+          "value": "{}"
+        },
+        {
+          "name": "TriplePixelU",
+          "value": "[{\"u\":\"https://www.zoua.co.uk/products/today-s-lowest-price-men-s-classic-high-elasticity-pants\",\"r\":\"https://www.facebook.com/\",\"t\":1758462633741,\"id\":\"mftr8zyl_0.ykk2o4mr4d\"}]"
+        },
+        {
+          "name": "wg-translations",
+          "value": "{}"
+        },
+        {
+          "name": "ig-vars",
+          "value": "{\"redirectedFrom\":\"\"}"
+        },
+        {
+          "name": "bugsnag-anonymous-id",
+          "value": "cmftr90i300002z8t4gcvvlgi"
+        },
+        {
+          "name": "bogos_discounts_apply",
+          "value": "NoXSA==="
+        },
+        {
+          "name": "ig-id",
+          "value": "ig_fe89c54cd6d968205cb9c49fd5358c3bcae6"
+        }
+      ]
+    },
+    {
+      "origin": "https://pattounes-solidaires.com",
+      "localStorage": [
+        {
+          "name": "rpUnknownVisit",
+          "value": "1"
+        },
+        {
+          "name": "ig-fv",
+          "value": "1758462650590"
+        },
+        {
+          "name": "_tb_user_data_consent",
+          "value": "GRANTED"
+        },
+        {
+          "name": "_tb_cart_notes",
+          "value": "browserSessionUUID:\"9ac8a9b4-ad8c-4846-8231-518772f82f90\",fbp:\"fb.1.1758462651084.2228867405\",personalizationConsent:\"GRANTED\",shopifyLocalization:\"BE\",tbId:\"23f4b83c-2c34-4cac-8148-1e5ddf9290ba\",ttp:\"05631424-c247-4b1f-a834-11339dccf66300c72bbc-2931-4d4c-9f68-6dcf114bdafb\",userDataConsent:\"GRANTED\""
+        },
+        {
+          "name": "_tb_id",
+          "value": "23f4b83c-2c34-4cac-8148-1e5ddf9290ba"
+        },
+        {
+          "name": "kaching_session_id",
+          "value": "7ea1d173-1a2a-4372-a718-069ada3b5983"
+        },
+        {
+          "name": "ig-vars",
+          "value": "{\"redirectedFrom\":\"\"}"
+        },
+        {
+          "name": "theme:recently-viewed-products",
+          "value": "[7772564160574]"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1758462651180"
+        },
+        {
+          "name": "_tb_personalization_consent",
+          "value": "GRANTED"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1758462651167"
+        },
+        {
+          "name": "_tb_fbp",
+          "value": "fb.1.1758462651084.2228867405"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "fb"
+        },
+        {
+          "name": "_tb_ttp",
+          "value": "05631424-c247-4b1f-a834-11339dccf66300c72bbc-2931-4d4c-9f68-6dcf114bdafb"
+        },
+        {
+          "name": "ig-id",
+          "value": "ig_1af18dddc51a7fee553524d30446e521bf9d"
+        },
+        {
+          "name": "_tb_d_i",
+          "value": "{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36\",\"timezone\":\"Europe/Brussels\",\"screenRatio\":1.5177777777777777,\"hardwareConcurrency\":12,\"deviceMemory\":8,\"touchPoints\":0}"
+        }
+      ]
+    },
+    {
+      "origin": "https://fleurdeluxe.fr",
+      "localStorage": [
+        {
+          "name": "ot_fb_shop",
+          "value": "1jgigg-eb.myshopify.com"
+        },
+        {
+          "name": "_tb_user_data_consent",
+          "value": "GRANTED"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1758462680084"
+        },
+        {
+          "name": "_tb_id",
+          "value": "3ad2bfb9-0934-4008-8da7-7a3ab0343a28"
+        },
+        {
+          "name": "_tb_personalization_consent",
+          "value": "GRANTED"
+        },
+        {
+          "name": "__kl_key",
+          "value": "X9cvSy"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1758462680073"
+        },
+        {
+          "name": "$referrer",
+          "value": "{\"ts\":1758462680,\"value\":\"https://www.facebook.com/\",\"first_page\":\"https://fleurdeluxe.fr/password\"}"
+        },
+        {
+          "name": "_tb_fbp",
+          "value": "fb.1.1758462679929.4228049370"
+        },
+        {
+          "name": "$last_referrer",
+          "value": "{\"ts\":1758462680,\"value\":\"https://www.facebook.com/\",\"first_page\":\"https://fleurdeluxe.fr/password\"}"
+        },
+        {
+          "name": "depict_cached_fetch",
+          "value": "{\"{\\\"input\\\":\\\"/api/2025-04/graphql.json\\\",\\\"init\\\":{\\\"method\\\":\\\"POST\\\",\\\"headers\\\":{\\\"Content-Type\\\":\\\"application/json\\\",\\\"X-Shopify-Storefront-Access-Token\\\":\\\"f891d0adecb31f0b22a70d8d32a2efe0\\\"},\\\"body\\\":\\\"{\\\\\\\"query\\\\\\\":\\\\\\\"query Products {\\\\\\\\n    products(first: 250, after: null, sortKey: TITLE) {\\\\\\\\n        nodes {\\\\\\\\n            id\\\\\\\\n        }\\\\\\\\n        pageInfo { endCursor hasNextPage hasPreviousPage startCursor }\\\\\\\\n    }\\\\\\\\n}\\\\\\\"}\\\"}}\":{\"time\":1758462679381,\"value\":\"{\\\"data\\\":{\\\"products\\\":{\\\"nodes\\\":[{\\\"id\\\":\\\"gid://shopify/Product/10029920190802\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401729362\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601450322\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807972690\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10015915442514\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807808850\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808300370\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023174701394\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9976340185426\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963453579602\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023176831314\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10027630395730\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601515858\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023176634706\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10007847108946\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808038226\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10031794946386\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10031825682770\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808103762\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178630994\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963454071122\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601581394\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178827602\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808365906\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601483090\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178860370\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178893138\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178762066\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808464210\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9976340447570\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023444185426\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10017265385810\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963454234962\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401401682\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963456069970\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617277266\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601614162\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023175618898\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401336146\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10026296639826\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10009138626898\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10055759659346\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808169298\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401696594\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963501322578\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178729298\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178696530\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9992352661842\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601679698\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10202634518866\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10095860547922\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401303378\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401663826\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963501125970\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601417554\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10019160981842\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9989497487698\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10015971017042\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963501551954\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963501715794\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401270610\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10055778763090\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10044921053522\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10096583377234\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10088502722898\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166846619986\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10097956258130\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10087710654802\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147635921234\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10096719561042\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150381093202\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10174812782930\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10093031653714\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10096686334290\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10015950668114\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10126517076306\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10182018335058\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10180138434898\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10074788528466\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10174811898194\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178039710034\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166847373650\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166851043666\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178039611730\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178039873874\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178039775570\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178039480658\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10088440824146\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166845964626\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166847504722\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10174812356946\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10097998856530\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10103617814866\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10088480440658\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10087703609682\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10029925859666\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10097911333202\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10095846359378\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166846062930\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10088459731282\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10093045612882\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166847603026\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10174813143378\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166847013202\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10070936486226\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150383288658\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10095854551378\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10096808853842\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10179816227154\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10097927717202\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10096625385810\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10058027925842\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150380765522\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10165409775954\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166845833554\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147829547346\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178690777426\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166845866322\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150382076242\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150007112018\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150382469458\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10070737191250\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10065146741074\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147807265106\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147811524946\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10096657760594\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10099375210834\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147829907794\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10166848127314\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10174813372754\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10094664188242\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147648373074\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178692972882\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10178039349586\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10179590979922\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10174813798738\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10070971711826\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10095849505106\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10075981414738\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10159881421138\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10159051407698\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10094661861714\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10020710220114\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10092134334802\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10074802913618\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10070951854418\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147795960146\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10074739442002\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150381683026\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10068732739922\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10156814106962\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10074795475282\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10074798260562\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10077585932626\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10074807042386\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10156812960082\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150382600530\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150381912402\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10077553983826\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10094671462738\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10156813615442\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150381388114\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10077593665874\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10093055017298\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150382764370\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10153868624210\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147688776018\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10092142920018\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10068701774162\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10092139675986\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10147709026642\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150381551954\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10153881272658\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150382862674\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10150382960978\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10156814205266\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10093048562002\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10067275841874\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10067309658450\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10092119359826\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10092066636114\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10093060981074\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10094667923794\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10058054500690\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601745234\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808660818\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963455119698\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601778002\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9865833840978\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9997043892562\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808398674\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178499922\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178794834\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10047125389650\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10094663041362\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617572178\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963500667218\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601810770\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617342802\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929962226002\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929962193234\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601876306\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10030433567058\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963456692562\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9967257092434\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617408338\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401172306\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401205074\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617604946\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9963500863826\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617244498\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807874386\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808070994\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10047134990674\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023177060690\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10047917982034\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10044918268242\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9967257289042\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10007700668754\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10021234835794\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023832355154\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10202635108690\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10016687030610\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401237842\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10027635343698\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617441106\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10044920234322\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808562514\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10030455521618\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023174865234\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807481170\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10026304176466\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023175455058\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178565458\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9976238375250\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807612242\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601941842\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10031698510162\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401499986\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10222169719122\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10007840883026\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10020906533202\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10020907221330\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10007697359186\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10015878316370\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9967256928594\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929617310034\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929962160466\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10182159073618\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808202066\\\"}],\\\"pageInfo\\\":{\\\"endCursor\\\":\\\"eyJsYXN0X2lkIjo5ODQ1ODA4MjAyMDY2LCJsYXN0X3ZhbHVlIjoiTUlMQU5BIHwgQ2FyZGlnYW4gZW4gY290b24gc29waGlzdGlxdcOpIiwib2Zmc2V0IjoyNDl9\\\",\\\"hasNextPage\\\":true,\\\"hasPreviousPage\\\":false,\\\"startCursor\\\":\\\"eyJsYXN0X2lkIjoxMDAyOTkyMDE5MDgwMiwibGFzdF92YWx1ZSI6IkFiaWdhw6tsbGV8IENoZW1pc2llciDDiWzDqWdhbnQgZXQgRsOpbWluaW4iLCJvZmZzZXQiOjB9\\\"}}}}\"},\"{\\\"input\\\":\\\"/api/2025-04/graphql.json\\\",\\\"init\\\":{\\\"method\\\":\\\"POST\\\",\\\"headers\\\":{\\\"Content-Type\\\":\\\"application/json\\\",\\\"X-Shopify-Storefront-Access-Token\\\":\\\"f891d0adecb31f0b22a70d8d32a2efe0\\\"},\\\"body\\\":\\\"{\\\\\\\"query\\\\\\\":\\\\\\\"query Products {\\\\\\\\n    products(first: 250, after: \\\\\\\\\\\\\\\"eyJsYXN0X2lkIjo5ODQ1ODA4MjAyMDY2LCJsYXN0X3ZhbHVlIjoiTUlMQU5BIHwgQ2FyZGlnYW4gZW4gY290b24gc29waGlzdGlxdcOpIiwib2Zmc2V0IjoyNDl9\\\\\\\\\\\\\\\", sortKey: TITLE) {\\\\\\\\n        nodes {\\\\\\\\n            id\\\\\\\\n        }\\\\\\\\n        pageInfo { endCursor hasNextPage hasPreviousPage startCursor }\\\\\\\\n    }\\\\\\\\n}\\\\\\\"}\\\"}}\":{\"time\":1758462679757,\"value\":\"{\\\"data\\\":{\\\"products\\\":{\\\"nodes\\\":[{\\\"id\\\":\\\"gid://shopify/Product/9845807841618\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10027675517266\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023176274258\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929601974610\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10017180942674\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023175815506\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9843957530962\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10054354010450\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401565522\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10031714173266\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10026278977874\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10026279207250\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9967257551186\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9992352629074\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10007301914962\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10047140921682\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807546706\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10007775805778\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10007834460498\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401139538\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929962062162\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10026246046034\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9998406615378\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10018361246034\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807677778\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10015839879506\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10030449426770\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023177519442\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023174504786\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401467218\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10030445363538\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10054377537874\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929602138450\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023175127378\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10180139843922\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023175291218\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929602007378\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401631058\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929602105682\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401598290\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10029255655762\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10045565534546\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807710546\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10009339887954\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845808529746\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929401434450\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929962127698\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9929962094930\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10023176044882\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10029923828050\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178663762\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9928178532690\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10047082922322\\\"},{\\\"id\\\":\\\"gid://shopify/Product/10180140466514\\\"},{\\\"id\\\":\\\"gid://shopify/Product/9845807776082\\\"}],\\\"pageInfo\\\":{\\\"endCursor\\\":\\\"eyJsYXN0X2lkIjo5ODQ1ODA3Nzc2MDgyLCJsYXN0X3ZhbHVlIjoiWU9OSSB8IFB1bGwgY29sIHJvdWzDqSDDqWzDqWdhbnQiLCJvZmZzZXQiOjMwNH0=\\\",\\\"hasNextPage\\\":false,\\\"hasPreviousPage\\\":true,\\\"startCursor\\\":\\\"eyJsYXN0X2lkIjo5ODQ1ODA3ODQxNjE4LCJsYXN0X3ZhbHVlIjoiTUlORUxMSSB8IFBBTlRBTE9OUyBBU1lNRVRSSVFVRVMiLCJvZmZzZXQiOjI1MH0=\\\"}}}}\"}}"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "fb"
+        },
+        {
+          "name": "ot_omega_px",
+          "value": "1149480266796180"
+        },
+        {
+          "name": "depict_ab_variant",
+          "value": "A"
+        },
+        {
+          "name": "_tb_ttp",
+          "value": "6e576e59-bdb9-4ef3-a0f6-e0ae9f4f11cccf7a4a2d-6f12-45f6-8f5b-ac8fe6a2341b"
+        },
+        {
+          "name": "upcart-traffic-allocation-random",
+          "value": "28"
+        },
+        {
+          "name": "kl-post-identification-sync",
+          "value": "[{\"name\":\"__activity__\",\"time\":\"2025-09-21T13:51:19.994Z\",\"properties\":{\"initial_page_path\":\"/password\",\"page\":\"https://fleurdeluxe.fr/password\",\"browser\":\"Chrome\",\"os\":\"Windows\",\"referrer\":\"www.facebook.com\"}}]"
+        },
+        {
+          "name": "ot_information_campaign",
+          "value": "{\"utm_source\":\"\",\"utm_campaign\":\"\",\"adset_name\":\"\",\"ad_name\":\"\",\"campaign_id\":\"\",\"adset_id\":\"\",\"ad_id\":\"\"}"
+        },
+        {
+          "name": "ot_omega_settings",
+          "value": "{\"settings\":{\"skip_onboarding_fb_ads\":0,\"accept_permission_fb_ads\":1,\"content_type_event\":1,\"step_onboarding\":\"{\\\"step_1\\\": 0, \\\"step_2\\\": 0, \\\"step_3\\\": 0, \\\"is_completed\\\": 0}\",\"show_banner_extension\":1,\"enable_analytics\":1,\"use_basecode_fb\":1,\"is_show_modal_survey\":1,\"is_show_modal_feedback\":1,\"last_date_feedback\":null,\"is_show_banner\":1,\"feedback_text\":null,\"feedback_rating\":null,\"count_open_app\":0,\"is_show_modal_review\":0,\"is_show_re_branding\":1,\"status_show_re_branding\":0,\"date_timezone_offset\":\"Europe/Paris\",\"group_accept_information_customer\":{\"isClientIPAddress\":true,\"isCity\":true,\"isFirstName\":true,\"isExternalID\":false,\"isZipCode\":true,\"isPhone\":true,\"isDateOfBirth\":false,\"isClientUserAgent\":true,\"isClickIDCookie\":false,\"isGender\":false,\"isState\":false,\"isCountry\":true,\"isEmail\":true,\"isBrowserIDCookie\":false,\"isLastName\":true,\"isSubscriptionID\":true},\"capi_track_viewcontent\":1,\"capi_track_search\":1,\"capi_track_pageview\":1,\"capi_track_addtocart\":1,\"capi_track_checkout\":1,\"capi_track_purchase\":1,\"id_pixel_shopify\":\"0\",\"price\":\"0.00\",\"maximum_id_conversion_api\":1,\"enable\":1,\"plan\":3,\"active_plan_at\":null,\"statusFeedback\":1,\"lastUpdate\":\"2025-07-25 06:46:01\",\"timeOnline\":null,\"reasonDisable\":null,\"reasonOtherDisable\":null,\"DiscountCode\":null,\"usePixelFromShopify\":null,\"PlanShopify\":\"basic\",\"updated_theme\":0,\"status_use_conversion\":0,\"test_event_code\":null,\"fb_access_token\":null,\"include_shippping_cost\":0,\"use_multi_currency\":0,\"first_catalog_feed_created_at\":null,\"is_enable_trigger\":0,\"is_using_webhook_product_update\":0,\"is_use_feed\":1,\"is_use_utm\":0,\"is_use_catalog\":1,\"is_save_consent\":1,\"is_enable_web_pixel\":2,\"is_using_plan_promote\":0,\"first_pixel_at\":\"2024-12-27 15:04:34\",\"is_new_version\":1,\"utm_tracking\":0,\"apps_installed\":null,\"plan_id\":null,\"is_enable_train_pixel\":0,\"setup_ads_report\":{\"version\":\"2\",\"alreadySetup\":false,\"is_using_feature\":0},\"is_charge_onetime\":0,\"time_onpage_setup\":{\"enabled\":false,\"time_on_page\":null},\"last_time_sync\":null,\"is_sync_cost\":1,\"attributes_window\":7,\"time_enable_web_pixel\":\"2024-12-27 01:58:33\",\"is_custome_event\":0,\"enable_export_analytics\":0,\"enable_chart\":0,\"is_use_cost_setting\":0,\"is_exclusive_offer\":0,\"is_downgrade_free_plan\":0,\"time_charge_free_plan\":\"2024-12-27 01:04:41\",\"time_downgrade_free_plan\":null,\"time_limit_orders\":\"2025-07-01 19:30:15\",\"is_charged_free_plan\":0,\"free_plan_expired\":0,\"plan_configs\":{\"plan_type\":\"FREE\",\"order_remain\":0},\"is_shipping_event\":1,\"is_completed_education_homepage\":0,\"is_completed_education_pixel\":0,\"is_completed_education_catalog\":0,\"is_completed_education_analytics\":0,\"is_completed_education_custom_event\":0,\"is_completed_education_ad_report\":0,\"pixel_track_viewcontent\":1,\"pixel_track_pageview\":1,\"pixel_track_checkout\":1,\"pixel_track_search\":1,\"pixel_track_addtocart\":1,\"pixel_track_purchase\":1,\"is_use_ad_manager\":0,\"enable_use_catalog_feed_limit\":1,\"capi_track_addpaymentinfo\":1,\"pixel_track_addpaymentinfo\":1,\"feature_settings\":{\"redirect_url\":\"https://app.twoowls.io/facebook-multi-pixels\",\"app_name\":\"facebook-pixel-5\",\"url_app\":\"https://app.twoowls.io/facebook-multi-pixels\",\"pricing_version_id\":5,\"is_show_onetime_charge\":1,\"is_show_free_plan\":1,\"is_show_advantage_pricing\":1,\"shopify_restapi_version\":\"2025-01\",\"shopify_graphicql_version\":\"2025-01\",\"store_name\":\"1jgigg-eb.myshopify.com\",\"installed_date\":\"2024-12-27 14:58:30\",\"status\":\"active\",\"confirmation_url\":null,\"plan_name\":\"Free\",\"plan_id\":61,\"scope\":null,\"is_live\":1,\"unit_price_capi_monthly\":\"5.99\",\"facebook_graph_api_version\":\"v20.0\",\"facebook_app_fields\":\"name,email,picture\",\"facebook_app_scope\":\"public_profile,email,catalog_management,ads_management,business_management,ads_read\",\"log_api_url\":\"https://app.twoowls.io/logs-facebook-pixels\",\"app_root_url\":\"https://app.twoowls.io/facebook-multi-pixels\",\"app_api_url\":\"https://app.twoowls.io/base-facebook-pixels\",\"core_api_url\":\"https://api.twoowls.io/core-facebook-pixels\",\"app_queue_url\":\"https://app.twoowls.io/omega-queue-facebook-pixels\",\"tracking_path\":\"/conversion-api\",\"external_path\":\"/api/external\"}},\"list_all_custom_events\":[],\"core_capi_url\":\"https://app.twoowls.io/base-facebook-pixels\",\"endpoint_capi_url\":\"https://api.twoowls.io/core-facebook-pixels\"}"
+        },
+        {
+          "name": "_tb_d_i",
+          "value": "{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36\",\"timezone\":\"Europe/Brussels\",\"screenRatio\":1.5177777777777777,\"hardwareConcurrency\":12,\"deviceMemory\":8,\"touchPoints\":0}"
+        }
+      ]
+    }
+  ]
+}

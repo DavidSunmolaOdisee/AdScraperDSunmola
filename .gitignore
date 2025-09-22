@@ -1,0 +1,7 @@
+node_modules/
+.env
+token.json
+ads.db
+exports/
+logs/
+playwright-report/
