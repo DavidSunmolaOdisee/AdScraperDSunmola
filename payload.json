@@ -2,7 +2,7 @@
   "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=DE&is_targeted_country=false&media_type=all&q=50%25%20Rabatt&search_type=keyword_unordered&start_date[min]&start_date[max]=2025-09-08",
   "country": "DE",
   "keyword": "50% Rabatt",
-  "limit": 5,
+  "limit": 1,
   "active": true,
   "headless": false
 }

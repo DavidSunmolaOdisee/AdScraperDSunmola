@@ -59,55 +59,82 @@
     </div>
   </div>
 
-  <script>
-    const fileInput = document.getElementById('file');
-    const ta = document.getElementById('payload');
-    const statusEl = document.getElementById('status');
-    const hostInput = document.getElementById('host');
+<script>
+  const fileInput = document.getElementById('file');
+  const ta = document.getElementById('payload');
+  const statusEl = document.getElementById('status');
+  const hostInput = document.getElementById('host');
 
-    document.getElementById('pretty').addEventListener('click', ()=>{
-      try{ ta.value = JSON.stringify(JSON.parse(ta.value), null, 2); }
-      catch{ /* ignore */ }
-    });
+  // Handige log naar status
+  function setStatus(s){ statusEl.textContent = s; console.log(s); }
 
-    document.getElementById('sample').addEventListener('click', ()=>{
-      ta.value = JSON.stringify({
-        link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=NL&is_targeted_country=false&media_type=all&q=.nl%2Fproducts&search_type=keyword_unordered",
-        country: "NL",
-        keyword: ".nl/products",
-        limit: 25,
-        active: true,
-        headless: true
-      }, null, 2);
-    });
+  document.getElementById('pretty').addEventListener('click', ()=>{
+    try{ ta.value = JSON.stringify(JSON.parse(ta.value), null, 2); }
+    catch(err){ setStatus('JSON parse error: ' + err.message); }
+  });
 
-    fileInput.addEventListener('change', (e)=>{
-      const f = e.target.files[0];
-      if(!f) return;
-      f.text().then(t => ta.value = t);
-    });
+  document.getElementById('sample').addEventListener('click', ()=>{
+    ta.value = JSON.stringify({
+      link: "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=DE&is_targeted_country=false&media_type=all&q=50%25%20Rabatt&search_type=keyword_unordered&start_date[min]=2025-09-08&start_date[max]=2025-09-08",
+      country: "DE",
+      keyword: "50% Rabatt",
+      limit: 1,
+      active: true,
+      headless: false
+    }, null, 2);
+    setStatus('Voorbeeld geladen.');
+  });
 
-    document.getElementById('send').addEventListener('click', async ()=>{
-      let origin = window.location.origin;
-      const custom = hostInput.value.trim();
-      if (custom) origin = custom.replace(/\\/$/, '');
-      const endpoint = origin + '/scrape/smart';
+  fileInput.addEventListener('change', (e)=>{
+    const f = e.target.files[0];
+    if(!f) return;
+    f.text().then(t => { ta.value = t; setStatus('Bestand geladen.'); });
+  });
 
-      statusEl.textContent = 'Versturen naar ' + endpoint + ' ...';
+  function endpointURL() {
+    let origin = hostInput.value.trim() || window.location.origin;
+    if (origin.endsWith('/')) origin = origin.slice(0, -1); // geen regex
+    return origin + '/scrape/smart';
+  }
 
-      try{
-        const body = JSON.parse(ta.value);
-        const res = await fetch(endpoint, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(body)
-        });
-        const text = await res.text();
-        statusEl.textContent = 'HTTP ' + res.status + '\\n' + text.slice(0, 4000);
-      }catch(err){
-        statusEl.textContent = 'Error: ' + err.message;
-      }
-    });
-  </script>
+  document.getElementById('send').addEventListener('click', async ()=>{
+    const endpoint = endpointURL();
+    let body;
+    try{
+      body = JSON.parse(ta.value);
+    }catch(err){
+      setStatus('JSON parse error: ' + err.message);
+      return;
+    }
+
+    setStatus('POST ' + endpoint + ' ...');
+    try{
+      const res = await fetch(endpoint, {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify(body)
+      });
+      const txt = await res.text();
+      setStatus('HTTP ' + res.status + '\n' + txt.slice(0, 5000));
+    }catch(err){
+      setStatus('Fetch error: ' + err.message);
+    }
+  });
+
+  // Mini-health test knop (optioneel)
+  const pingBtn = document.createElement('button');
+  pingBtn.textContent = 'Test health';
+  pingBtn.style.marginLeft = '8px';
+  pingBtn.onclick = async ()=>{
+    const health = (hostInput.value.trim() || window.location.origin) + '/health';
+    setStatus('GET ' + health + ' ...');
+    try{
+      const r = await fetch(health);
+      setStatus('Health ' + r.status + '\n' + await r.text());
+    }catch(e){ setStatus('Health error: ' + e.message); }
+  };
+  document.querySelector('.row').appendChild(pingBtn);
+</script>
+
 </body>
 </html>
