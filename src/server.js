@@ -141,8 +141,8 @@ app.post("/scrape/smart", async (req, res) => {
 
     res.json({ ok: true, count: items.length, sample: items.slice(0, 3) });
   } catch (e) {
-    console.error(e);
-    res.status(500).json({ ok: false, error: e.message });
+    console.error("[/scrape/smart] ERROR:", e); // volledige stack in Render-logs
+    res.status(500).json({ ok:false, error: String(e && e.message || e) });
   }
 });
 
