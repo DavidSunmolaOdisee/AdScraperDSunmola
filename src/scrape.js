@@ -344,25 +344,24 @@ export async function scrapeSmart({
   const resolvedLocale = resolveLocale(_country);          // bv. nl-NL (forced)
   const cookieLocale   = underscoreLocale(resolvedLocale); // nl_NL
 
-// In de cloud (Render/CI/prod) dwingen we headless af
-const isCloud = Boolean(process.env.RENDER || process.env.CI || process.env.NODE_ENV === "production");
-const useHeadless = isCloud ? true : (headless !== false);
+  // In de cloud (Render/CI/prod) dwingen we headless af
+  const isCloud = Boolean(process.env.RENDER || process.env.CI || process.env.NODE_ENV === "production");
+  const useHeadless = isCloud ? true : (headless !== false);
 
-const browser = await chromium.launch({
-  headless: useHeadless,
-  slowMo: useHeadless ? 0 : 80,
-  args: [
-    '--disable-dev-shm-usage',
-    '--no-sandbox',
-    // optionele extra stabiliteit
-    '--disable-background-timer-throttling',
-    '--disable-renderer-backgrounding',
-    '--disable-backgrounding-occluded-windows'
-  ]
-});
+  const browser = await chromium.launch({
+    headless: useHeadless,
+    slowMo: useHeadless ? 0 : 80,
+    args: [
+      '--disable-dev-shm-usage',
+      '--no-sandbox',
+      // optionele extra stabiliteit
+      '--disable-background-timer-throttling',
+      '--disable-renderer-backgrounding',
+      '--disable-backgrounding-occluded-windows'
+    ]
+  });
 
   fs.mkdirSync(STORAGE_DIR, { recursive: true });
-
   const HAS_STATE = fs.existsSync(STORAGE_PATH);
 
   // Context met harde NL voorkeur
@@ -479,7 +478,7 @@ const browser = await chromium.launch({
         return true;
       }
     }
-    if (!categoryMatch(cat, ALLOWED_PAGE_CATEGORIES)) {
+    if (!categoryMatch(cat, requiredCats)) {
       pageAllowCache.set(page_id, false);
       stats.uniqueCatRejected++;
       return false;
@@ -586,14 +585,9 @@ const browser = await chromium.launch({
           })()
         );
 
-        // throttle: wacht zodra we >= CONCURRENCY taken gestart hebben
+        // throttle: zodra >= CONCURRENCY taken gestart zijn, wacht tot er 1 klaar is
         if (tasks.length >= CONCURRENCY) {
           await Promise.race(tasks.map(p => p.catch(() => {})));
-          // verwijder afgewerkte tasks (niet perfect, maar oké)
-          for (let i = tasks.length - 1; i >= 0; i--) {
-            const t = tasks[i];
-            if (t.status === 'fulfilled' || t.status === 'rejected') tasks.splice(i, 1);
-          }
         }
       }
 
