@@ -191,7 +191,18 @@ async function runNextJob() {
     job.updated_at = new Date().toISOString();
   } catch (e) {
     console.error("[worker] job error:", e);
-    job.error = String(e?.message || e);
+job.error = JSON.stringify({
+  message: String(e?.message || e),
+  name: e?.name,
+  code: e?.code,
+  cause: e?.cause && {
+    code: e.cause.code,
+    errno: e.cause.errno,
+    syscall: e.cause.syscall,
+    hostname: e.cause.hostname
+  },
+  stack: e?.stack?.split('\n').slice(0,5).join('\n')
+});
     job.status = "error";
     job.updated_at = new Date().toISOString();
   } finally {
