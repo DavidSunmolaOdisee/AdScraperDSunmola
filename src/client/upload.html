@@ -48,7 +48,7 @@
       <textarea id="payload" placeholder='{"country":"NL","keyword":".nl/products","limit":25,"active":true}'></textarea>
 
       <div class="row" style="margin-top:10px">
-        <button id="send">Verstuur</button>
+<button id="sendAsync">Verstuur (async)</button>
         <button id="pretty">Beautify</button>
         <button id="sample">Voorbeeld laden</button>
       </div>
@@ -134,6 +134,43 @@
     }catch(e){ setStatus('Health error: ' + e.message); }
   };
   document.querySelector('.row').appendChild(pingBtn);
+async function postJSON(url, body) {
+    const res = await fetch(url, {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify(body)
+    });
+    const txt = await res.text();
+    let data = null; try { data = JSON.parse(txt); } catch {}
+    return { status: res.status, text: txt, data };
+  }
+
+  async function pollJob(base, jobId) {
+    const url = base + '/jobs/' + jobId;
+    let tries = 0;
+    while (true) {
+      const r = await fetch(url);
+      const j = await r.json();
+      statusEl.textContent = `Job ${jobId} → ${j.job.status} (HTTP ${r.status})`;
+      if (j.job.status === 'done' || j.job.status === 'error') {
+        statusEl.textContent += '\n' + JSON.stringify(j.job.result || {error: j.job.error}, null, 2);
+        break;
+      }
+      tries++; await new Promise(r => setTimeout(r, 3000));
+    }
+  }
+
+  document.getElementById('sendAsync').addEventListener('click', async ()=>{
+    const base = (hostInput.value.trim() || window.location.origin).replace(/\/$/, '');
+    let body;
+    try { body = JSON.parse(ta.value); } catch(e){ statusEl.textContent = 'JSON parse error: ' + e.message; return; }
+    statusEl.textContent = 'Start async job...';
+    const r = await postJSON(base + '/scrape/smart-async', body);
+    statusEl.textContent = `HTTP ${r.status}\n` + r.text.slice(0,5000);
+    if (r.status === 202 && r.data?.job_id) {
+      await pollJob(base, r.data.job_id);
+    }
+  });
 </script>
 
 </body>
